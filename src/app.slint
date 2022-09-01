@@ -1,0 +1,24 @@
+import { VerticalBox , AboutSlint} from "std-widgets.slint";
+
+export App := Window {
+    width: 320px;
+    height: 240px;
+
+    background: white;
+
+    VerticalBox {
+        Text {
+            text: "Hello World!";
+            font-size: 24px;
+            color: green;
+            horizontal-alignment: center;
+            Rectangle {
+                border-width: 2px;
+                border-radius: 5px;
+                border-color: black;
+            }        
+        }
+
+        AboutSlint {  }
+    }
+}
